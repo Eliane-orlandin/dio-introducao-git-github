@@ -1,0 +1,23 @@
+Introdução ao GIT - software de versionamento de código distribuído.
+
+Link download: Git - Downloads (git-scm.com)
+O Git é um sistema de controle de versão de código-fonte aberto. Ele facilita esse tipo de colaboração no projeto por meio do controle de versão distribuído de arquivos que residem em repositórios.
+Sha1 - é uma representação de um arquivo encriptado, de 40 caracteres.
+Para criar um sha1:
+openssl  sha1 nome arquivo
+
+Objetos fundamentais
+Blobs: Bloco básico de composição
+Trees: Armanezamento e apontando para tipo de blobs diferentes
+Commits: Juntar todos os dados e alterações
+
+Como criar um repositório no Git/GitHub
+No GitHub:
+Criar um repositório novo, colocar a descrição, deixar Público, adicione um arquivo README.
+Depois de criado, copiar o HTTP ou SSH.
+No Git Bash:
+Clonar o arquivo do GitHub para a máquina local.
+git clone (Colar endereço HTTP ou SSH)
+git add . (para adicionar os arquivos)
+git commit  -m “Adicionar comentário”
+git push origin main (Enviar para GitHub as alterações).
